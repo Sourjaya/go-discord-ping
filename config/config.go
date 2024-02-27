@@ -32,5 +32,7 @@ func ReadConfig() error {
 	}
 	Token = config.Token
 	BotPrefix = config.BotPrefix
+	fmt.Println(Token)
+	fmt.Println(BotPrefix)
 	return nil
 }
